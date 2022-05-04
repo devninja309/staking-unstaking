@@ -1,0 +1,89 @@
+.button.is-link{
+  background-color:#3f5ce1 !important;
+}
+.self-title {
+  display: flex;
+  width: 100%;
+}
+.self-name {
+  width: 94%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.delete:before {
+  background-color: rgb(255, 0, 0) !important;
+}
+.delete:after {
+  background-color: rgb(255, 0, 0) !important;
+}
+
+.delete {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.first-tables {
+  width: 100%;
+  height: 160px;
+  border: 1px solid #b9bfc5;
+  border-radius: 10px;
+  display: flex;
+}
+.first-table {
+  width: 31%;
+  background-color: #b9bfc5;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.f-table {
+  width: 69%;
+  display: grid;
+}
+.first-input:first-child {
+  border-bottom: 1px solid #b9bfc5;
+}
+.first-input {
+  width: 98%;
+  border: none;
+  font-size: 22px;
+  outline: none;
+}
+.other-tables {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #b9bfc5;
+  border-radius: 10px;
+  display: flex;
+}
+
+.name-table {
+  width: 31%;
+  background-color: #b9bfc5;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.other-input {
+  font-size: 25px;
+  width: 67%;
+  border: none;
+  outline: none;
+}
+.get-link{
+  color: #000000;
+}
+.get-link:hover{
+  color: #000000;
+}

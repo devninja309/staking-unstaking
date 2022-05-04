@@ -1,0 +1,211 @@
+.button.is-link{
+  background-color:#3f5ce1 !important;
+}
+.switch-button {
+  background: rgba(255, 255, 255, 0.56);
+  border-radius: 50px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #155fff;
+  position: relative;
+  border: 1px solid grey;
+  height: 78px;
+}
+.switch-button:before {
+  content: "FEMALE";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+  height: 100%;
+  font-size: 33px;
+  color: rgb(94, 93, 93);
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  z-index: 2;
+  height: 100%;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(100%);
+  transition: transform 300ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+  position: relative;
+  padding: 15px 0;
+  display: block;
+  // -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+.switch-button-checkbox + .switch-button-label:before {
+  content: "";
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50px;
+  transform: translateX(0);
+  transition: transform 300ms;
+  border: 2px solid rgb(22, 22, 216);
+  align-items: center;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 33px;
+}
+
+.self-title {
+  display: flex;
+  width: 100%;
+}
+.self-name {
+  width: 94%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.delete:before {
+  background-color: #c51717 !important;
+}
+.delete:after {
+  background-color: #c51717 !important;
+}
+
+.delete {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.self-tables {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #b9bfc5;
+  border-radius: 10px;
+  display: flex;
+}
+.self-tables span {
+  margin-left: 20px;
+  font-weight: 500;
+  color: #b9bfc5;
+  font-size: 20px;
+}
+
+.name-table {
+  width: 31%;
+  background-color: #b9bfc5;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.info-table {
+  width: 23%;
+  display: grid;
+  border-right: 1px solid #b9bfc5;
+}
+.info-table:last-child {
+  border: none !important;
+}
+
+.info-input {
+  margin-left: 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+
+.h-info-table {
+  width: 34.5%;
+  display: grid;
+  border-right: 1px solid #b9bfc5;
+}
+.h-info-table:last-child {
+  border: none !important;
+}
+.h-info-table span {
+  margin-left: 20px;
+  font-weight: 500;
+  color: #b9bfc5;
+  font-size: 24px;
+}
+.w-info-table {
+  display: grid;
+  width: 69%;
+}
+.c-info-table {
+  width: 69%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.check-nicotine {
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+}
+
+.checkbox {
+  display: flex;
+}
+.checkbox p {
+  font-size: 27px;
+  color: #000000;
+  font-family: bold;
+  margin-left: 20px;
+}
+.select select {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.select select:focus{
+  box-shadow: 0 0 0 0 rgb(255,255,255) !important;
+}
+.select select:hover {
+  border: none !important;
+}
+.select {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.get-link{
+  color: #000000;
+}
+.get-link:hover{
+  color: #000000;
+}

@@ -1,0 +1,93 @@
+.button.is-link{
+    background-color:#3f5ce1 !important;
+  }
+  .self-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .title-btn {
+    padding: 10px;
+    border-radius: 24px;
+    border: 1px solid #b9bfc5;
+  }
+  .fa-arrow-left {
+    font-size: 24px;
+  }
+  .fa-times {
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+  }
+  .amount{
+    width: 100%;
+  }
+  .stakings-line{
+    padding: 50px 32px;
+  }
+  .stakings{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #b9bfc5;
+    border-radius: 46px;
+    display: flex;
+    justify-content: center;
+    padding-right: 47px;
+    align-items: center;
+  }
+
+  .staking-crypto{
+    width: 35%;
+    height: 80px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    border-right: 1px solid rgb(128, 128, 128);
+  }
+  .select{
+    width: 65%;
+  }
+  .select select{
+    width: 100%;
+    text-align: center;
+    color: rgb(128, 128, 128);
+    outline: none;
+    border: none;
+    height: 78px;
+    font-size: 30px;
+  }
+  .qr-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .qr-img{
+    width: 300px;
+    height: 300px;
+  }
+  .footer-note{
+    // color: black;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .footer-note span{
+    color: black;
+  }
+  .count-amount{
+    border: 2px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .deposit-address{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .deposit-icon{
+    font-size: 30px;
+  }
+
