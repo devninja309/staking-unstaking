@@ -15,7 +15,6 @@ const Insurance = () => {
                     <button className="title-btn">
                       <span className="icon">
                         <i className="fas fa-arrow-left"></i>
-                        {/* <></> */}
                       </span>
                     </button>
                   </Link>
