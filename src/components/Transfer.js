@@ -62,7 +62,10 @@ const Insurance = () => {
                       </span>
                     </div>
                     <div>
-                      <i className=" fa-solid fa-copy deposit-icon"></i>
+                      <button className="copy-url">
+                      <i  className=" fa-solid fa-copy deposit-icon"></i>
+                      </button>
+                      
                     </div>
                   </div>
                 </div>

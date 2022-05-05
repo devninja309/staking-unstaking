@@ -45,9 +45,9 @@
     font-weight: 500;
     border-right: 1px solid rgb(128, 128, 128);
   }
-  .select{
-    width: 65%;
-  }
+  // .select{
+  //   width: 65%;
+  // }
   .select select{
     width: 100%;
     text-align: center;
@@ -70,6 +70,7 @@
     // color: black;
     font-weight: 500;
     font-size: 20px;
+    padding: 0 1em;
   }
   .footer-note span{
     color: black;
@@ -90,4 +91,53 @@
   .deposit-icon{
     font-size: 30px;
   }
+
+  .copy-url{
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+
+element.style {
+  height: 78px;
+  font-size: 27px;
+  color: #808080;
+  border: none;
+  border-radius: none;
+}
+.react-tel-input .selected-flag{
+  border-radius: none;
+}
+.react-tel-input .flag-dropdown{
+  border: none;
+  background-color: #fff;
+}
+.react-tel-input .form-control {
+  height: 78px;
+  font-size: 27px;
+  color: #000;
+  border: none;
+}
+.react-tel-input .flag-dropdown{
+  background-color: #fff;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+  background-color: #fff;
+}
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus{
+  background: #fff;
+}
+
+.react-tel-input .flag-dropdown{
+  border-radius: none;
+}
+.react-tel-input .flag-dropdown{
+border-radius: 0px 0px 0px 0px;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+  border-radius: 0px 0px 0px 0px;
+}
+.react-tel-input .form-control {
+  width: 100%;
+}
 

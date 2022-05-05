@@ -88,8 +88,7 @@
 }
 .self-name {
   width: 94%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-weight: bold;
   font-size: 30px;
 }
@@ -135,6 +134,7 @@
   width: 23%;
   display: grid;
   border-right: 1px solid #b9bfc5;
+  align-items: center;
 }
 .info-table:last-child {
   border: none !important;
@@ -170,6 +170,10 @@
   font-size: 22px;
   display: flex;
   align-items: center;
+}
+
+.c-info-table select {
+  width: 100% !important;
 }
 
 .check-nicotine {
@@ -208,4 +212,28 @@
 }
 .get-link:hover{
   color: #000000;
+}
+
+@media (max-width: 500px) {
+  .self-name {
+    font-size: 22px !important;
+  }
+  .switch-button-checkbox + .switch-button-label .switch-button-label-span {
+    font-size: 24px;
+  }
+  .switch-button:before {
+  font-size: 24px;
+  }
+  .name-table {
+    font-size: 19px !important;
+  }
+  .c-info-table select {
+    width: 100% !important;
+  }
+  .select select {
+    font-size: 22px !important;
+  }
+  .checkbox p {
+    font-size: 21px;
+  }
 }

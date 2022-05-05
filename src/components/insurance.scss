@@ -23,8 +23,13 @@
   justify-content: center;
 }
 .amount-name {
+  text-align: center;
   font-size: 30px;
   font-weight: 600;
+}
+
+.select-stake {
+  font-size: 24px !important;
 }
 .count-amountn {
   display: flex;
@@ -55,7 +60,7 @@
   color: rgb(128, 128, 128);
 }
 .amounts-number {
-  width: 70%;
+  width: 100%;
   border: none;
   outline: none;
   font-size: 25px;

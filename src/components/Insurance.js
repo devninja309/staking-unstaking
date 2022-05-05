@@ -52,11 +52,11 @@ const Insurance = () => {
 
                 <div className="field mt-5 select-crytos">
                   <div className="field mt-5 amount">
-                    <h3 className="amount-name">SELECT CRYPTO TO STAKE</h3>
+                    <h3 className="amount-name select-stake">SELECT CRYPTO TO STAKE</h3>
                   </div>
                   <div className="field mt-5 select-cryto">
                     <div className="select-crypto-lines">
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/bitcoin.png"
                           className="crypto-img"
@@ -69,7 +69,7 @@ const Insurance = () => {
                           className="crypto-check"
                         ></input>
                       </div>
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/ethereum.png"
                           className="crypto-img"
@@ -84,7 +84,7 @@ const Insurance = () => {
                       </div>
                     </div>
                     <div className="select-crypto-lines">
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/solana.jpg"
                           className="crypto-img"
@@ -97,7 +97,7 @@ const Insurance = () => {
                           className="crypto-check"
                         ></input>
                       </div>
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/binance.png"
                           className="crypto-img"
@@ -112,7 +112,7 @@ const Insurance = () => {
                       </div>
                     </div>
                     <div className="select-crypto-lines">
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/bitcoincash.png"
                           className="crypto-img"
@@ -125,7 +125,7 @@ const Insurance = () => {
                           className="crypto-check"
                         ></input>
                       </div>
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/cardano.png"
                           className="crypto-img"
@@ -140,7 +140,7 @@ const Insurance = () => {
                       </div>
                     </div>
                     <div className="select-crypto-lines">
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/xrp.png"
                           className="crypto-img"
@@ -153,7 +153,7 @@ const Insurance = () => {
                           className="crypto-check"
                         ></input>
                       </div>
-                      <div className="select-crypto-line mt-5">
+                      <div className="select-crypto-line mb-5">
                         <img
                           src="./cryptoicons/luna.png"
                           className="crypto-img"
