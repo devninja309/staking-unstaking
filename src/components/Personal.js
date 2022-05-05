@@ -16,7 +16,7 @@ const Personal = () => {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-mobile">
-              <form className="box">
+              <div className="box">
                 <div className="field mt-5 self-title">
                   <h1 className="self-name">PERSONAL DETAILS</h1>
                   <Link to="/">
@@ -72,7 +72,7 @@ const Personal = () => {
                     </Link>
                   </button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>

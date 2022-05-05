@@ -15,7 +15,7 @@ const Login = () => {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-mobile">
-              <form className="box">
+              <div className="box">
                 <div className="field mt-5 self-title">
                   <h1 className="self-name">TELL US ABOUT YOURSELF</h1>
                   <Link to="/" >
@@ -96,7 +96,7 @@ const Login = () => {
                     <Link className="get-link" to="./personal">LET'S GET ESTIMATING</Link>
                   </button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>

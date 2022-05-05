@@ -9,7 +9,7 @@ const Insurance = () => {
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-mobile">
-              <form className="box">
+              <div className="box">
                 <div className="field mt-5 mb-5 self-title">
                   <Link to="/insurance">
                     <button className="title-btn">
@@ -87,7 +87,7 @@ const Insurance = () => {
                   <p>Recovery fee will be charged for such transactions.</p>
                 </div>
                 <div className="field mt-5"></div>
-              </form>
+              </div>
             </div>
           </div>
         </div>

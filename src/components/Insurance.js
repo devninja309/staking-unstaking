@@ -1,15 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./insurance.scss";
 
 const Insurance = () => {
+
+  const [count, setCount] = useState(100000);
+
+  const inCount = (e) => {
+    let value = Number(e);
+    setCount(value);
+  }
+
+  const increase = () => {
+    setCount(count+1);
+    // alert(count)
+  }
+
+  const decrease = () => {
+    // var bbb = --count;
+    setCount(count-1);
+  }
+
   return (
     <section className="hero has-background-grey-light is-fullheight is-fullwidth">
+      {/* {console.log(count)} */}
       <div className="hero-body">
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-mobile">
-              <form className="box">
+              <div className="box">
                 <div className="field mt-5 mb-5 self-title">
                   <Link to="/personal">
                     <button className="title-btn">
@@ -31,7 +50,7 @@ const Insurance = () => {
                   <h3 className="amount-name">Coverage amount</h3>
                 </div>
                 <div className="field mt-5 count-amountn">
-                  <button className="amount-btn">
+                  <button className="amount-btn" onClick={decrease}>
                     <span className="icon">
                       <i className="fa-solid fa-minus"></i>
                     </span>
@@ -40,10 +59,12 @@ const Insurance = () => {
                     <input
                       type="number"
                       className="amounts-number"
-                      placeholder="$1,000,000"
+                      // placeholder="$1,000,000"
+                      value={count}
+                      onChange={(e) => {inCount(e.target.value)}}
                     ></input>
                   </div>
-                  <button className="amount-btn">
+                  <button className="amount-btn" onClick={increase}>
                     <span className="icon">
                       <i className="fa-solid fa-plus"></i>
                     </span>
@@ -127,7 +148,7 @@ const Insurance = () => {
                       </div>
                       <div className="select-crypto-line mb-5">
                         <img
-                          src="./cryptoicons/cardano.png"
+                          src="./cryptoicons/caradano.jpg"
                           className="crypto-img"
                           alt=""
                         ></img>
@@ -182,7 +203,7 @@ const Insurance = () => {
                     Learn More {">"}
                   </Link>
                 </li>
-              </form>
+              </div>
             </div>
           </div>
         </div>
