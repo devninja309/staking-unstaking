@@ -1,5 +1,5 @@
 .button.is-link{
-    background-color:#3f5ce1 !important;
+    background-color:rgb(46,99,245) !important;
   }
   .self-title {
     display: flex;
@@ -7,22 +7,22 @@
     align-items: center;
   }
   .title-btn {
-    padding: 10px;
-    border-radius: 24px;
+    padding: 14px;
+    border-radius: 31px;
     border: 1px solid #b9bfc5;
   }
   .fa-arrow-left {
     font-size: 24px;
   }
   .fa-times {
-    font-size: 24px;
+    font-size: 30px;
     color: rgb(255, 0, 0);
-  }
+}
   .amount{
     width: 100%;
   }
   .stakings-line{
-    padding: 50px 32px;
+    padding: 28px 32px;
   }
   .stakings{
     width: 100%;
@@ -34,7 +34,7 @@
     padding-right: 47px;
     align-items: center;
   }
-
+ 
   .staking-crypto{
     width: 35%;
     height: 80px;
@@ -43,7 +43,10 @@
     align-items: center;
     font-size: 25px;
     font-weight: 500;
-    border-right: 1px solid rgb(128, 128, 128);
+    border-right: 1px solid rgb(219 219 219);
+    background-color: #dbdbdb;
+    border-top-left-radius: 41px;
+    border-bottom-left-radius: 41px;
   }
   // .select{
   //   width: 65%;
@@ -87,6 +90,10 @@
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #1e2857;
+  }
+  .deposit-password{
+    color: #1e2857;
   }
   .deposit-icon{
     font-size: 30px;

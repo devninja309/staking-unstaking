@@ -22,12 +22,12 @@ const Insurance = () => {
   }
 
   return (
-    <section className="hero has-background-grey-light is-fullheight is-fullwidth">
-      {/* {console.log(count)} */}
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns is-centered">
-            <div className="column is-mobile">
+    // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
+    //   {/* {console.log(count)} */}
+    //   <div className="hero-body">
+    //     <div className="container">
+    //       <div className="columns is-centered">
+    //         <div className="column is-mobile">
               <div className="box">
                 <div className="field mt-5 mb-5 self-title">
                   <Link to="/personal">
@@ -59,7 +59,7 @@ const Insurance = () => {
                     <input
                       type="number"
                       className="amounts-number"
-                      // placeholder="$1,000,000"
+                      placeholder="$1,000,000"
                       value={count}
                       onChange={(e) => {inCount(e.target.value)}}
                     ></input>
@@ -204,11 +204,11 @@ const Insurance = () => {
                   </Link>
                 </li>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section>
   );
 };
 

@@ -10,11 +10,11 @@ const Login = () => {
   // ]);
 
   return (
-    <section className="hero has-background-grey-light is-fullheight is-fullwidth">
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns is-centered">
-            <div className="column is-mobile">
+    // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
+      // <div className="hero-body">
+      //   <div className="container">
+      //     <div className="columns is-centered">
+      //       <div className="column is-mobile">
               <div className="box">
                 <div className="field mt-5 self-title">
                   <h1 className="self-name">TELL US ABOUT YOURSELF</h1>
@@ -92,16 +92,18 @@ const Login = () => {
                   </label>
                 </div>
                 <div className="field mt-5">
+                <Link className="get-link" to="./personal">
                   <button className="button is-link is-large is-fullwidth">
-                    <Link className="get-link" to="./personal">LET'S GET ESTIMATING</Link>
+                    LET'S GET ESTIMATING
                   </button>
+                  </Link>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </div>
+    // </section>
   );
 };
 

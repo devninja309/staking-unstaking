@@ -4,11 +4,11 @@ import "./transfer.scss";
 
 const Insurance = () => {
   return (
-    <section className="hero has-background-grey-light is-fullheight is-fullwidth">
-      <div className="hero-body">
-        <div className="container">
-          <div className="columns is-centered">
-            <div className="column is-mobile">
+    // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
+    //   <div className="hero-body">
+    //     <div className="container">
+    //       <div className="columns is-centered">
+    //         <div className="column is-mobile">
               <div className="box">
                 <div className="field mt-5 mb-5 self-title">
                   <Link to="/insurance">
@@ -31,13 +31,13 @@ const Insurance = () => {
                   <div className="stakings">
                     <div className="staking-crypto">
                       <img
-                        src="./cryptoicons/ethereum.png"
+                        src="./cryptoicons/ethereum1.png"
                         className="crypto-img"
                         alt=""
                       ></img>
-                      <span className="crypto-name">ETH</span>
+                      <span className="crypto-names">ETH</span>
                     </div>
-                    <div className="select">
+                    <div className="select select-staing">
                       <select className="staking-amount">
                         <option>0.00000000</option>
                       </select>
@@ -51,19 +51,19 @@ const Insurance = () => {
                     alt=""
                   ></img>
                 </div>
-                <div className="field mt-5">
+                <div className="field mt-5 pt-5">
                   <div className="count-amount">
                     <div className="deposit">
                       <h3 className="deposit-address">
                         Deposit Address(<span>ETH</span>)
                       </h3>
-                      <span className="deposit-passowrd">
+                      <span className="deposit-password">
                         0xdfC09A357654504Dcdfg654Dcdfg65
                       </span>
                     </div>
                     <div>
                       <button className="copy-url">
-                      <i  className=" fa-solid fa-copy deposit-icon"></i>
+                      <img  className="deposit-icon" src="./cryptoicons/copy-icon.png" alt=""></img>
                       </button>
                       
                     </div>
@@ -88,11 +88,11 @@ const Insurance = () => {
                 </div>
                 <div className="field mt-5"></div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    //         {/* </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </section> */}
   );
 };
 

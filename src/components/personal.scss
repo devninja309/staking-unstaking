@@ -1,5 +1,5 @@
 .button.is-link{
-  background-color:#3f5ce1 !important;
+  background-color:rgb(46,99,245) !important;
 }
 .self-title {
   display: flex;
@@ -11,6 +11,7 @@
   justify-content: center;
   font-weight: bold;
   font-size: 30px;
+  color: black;
 }
 .delete:before {
   background-color: rgb(255, 0, 0) !important;
