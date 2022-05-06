@@ -212,12 +212,8 @@
     border-bottom-left-radius: 41px;
   }
   .select-staing select {
-    width: 100%;
-    text-align: center;
     color: rgb(29, 50, 82);
     font-weight: 500;
-    outline: none;
-    border: none;
     height: 58px;
     font-size: 30px;
   }
@@ -231,4 +227,162 @@
   //   /* margin-right: 4px; */
   //   font-size: 22px;
   // }
+}
+
+@media (max-width: 380px){
+  .select select {
+    font-size: 18px !important;
+}
+.name-table {
+  padding-left: 10px;
+  font-size: 16px !important;
+}
+.self-tables span {
+  margin-left: 12px;
+  font-size: 17px;
+}
+.info-input {
+  margin-left: 15px;
+}
+.h-info-table span {
+  margin-left: 14px;
+  font-size: 17px;
+}
+.check-nicotine {
+  width: 20px;
+  height: 20px;
+}
+.checkbox p {
+  font-size: 15px;
+}
+.fa-times {
+  font-size: 20px;
+}
+.title-btn {
+  padding: 7px;
+  border-radius: 31px;
+}
+.self-name {
+  font-size: 18px !important;
+}
+.switch-button {
+  height: 52px;
+}
+.switch-button:before {
+  font-size: 15px;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  font-size: 15px;
+}
+.select:not(.is-multiple):not(.is-loading)::after {
+  right: 0.125em;
+}
+.c-info-table {
+  font-size: 14px;
+}
+.button.is-link {
+  font-size: 17px;
+  padding: 27px;
+}
+.fa-times {
+  font-size: 18px !important;
+}
+.title-btn {
+  padding: 7px !important;
+}
+.first-tables {
+  height: 125px;
+}
+.first-input {
+  font-size: 17px;
+}
+.other-input {
+  font-size: 18px;
+}
+.react-tel-input .country-list {
+  width: 177px;
+}
+.react-tel-input .form-control {
+  font-size: 14px !important;
+}
+.amount-btn {
+  padding: 8px;
+}
+.amounts-number {
+  font-size: 20px;
+}
+.select-stake {
+  font-size: 18px !important;
+}
+.crypto-check {
+  width: 30px;
+  height: 30px;
+}
+.crypto-name {
+  margin: 0px 4px;
+  font-size: 19px;
+}
+.crypto-name-luna {
+  margin-left: 2px;
+  margin-right: 4px;
+  font-size: 15px;
+}
+.amount-name {
+  font-size: 20px;
+}
+
+
+.crypto-names {
+display: none;
+}
+
+.stakings {
+  height: 55px !important;
+}
+
+.staking-crypto {
+  height: 55px !important;
+  font-size: 25px;
+}
+
+.select select:not([multiple]) {
+  padding-right: 0.5em;
+}
+
+.select select {
+  height: 53px !important;
+  font-size: 30px;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  right: -1.1em;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
+  height: 0.6em;
+  margin-top: -0.4375em;
+  top: 51%;
+  width: 0.65em;
+}
+
+.qr-img {
+  height: 250px;
+  width: 250px;
+}
+
+.deposit-address {
+  font-size: 18px !important;
+  margin-bottom: 3px !important;
+}
+.deposit-password {
+  font-size: 12px;
+}
+
+
+}
+
+@media (max-width: 330px) {
+  .self-name {
+    font-size: 14px !important;
+  }
 }

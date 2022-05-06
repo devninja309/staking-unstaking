@@ -9,6 +9,16 @@ const Login = () => {
   //   "United Kingdom, Australia, Russia, Colombia, Spain",
   // ]);
 
+  // const _handleCheckBox = (e) => {
+  //   e.preventDefault();
+  //   console.log(document.getElementsByClassName("switch-button-label:before"))
+  //   if(document.getElementsByClassName("switch-button-label:before")[0].style.color === 'blue') {
+  //     document.getElementsByClassName("switch-button-label:before")[0].style.color = 'black';
+  //   } else {
+  //     document.getElementsByClassName("switch-button-label:before")[0].style.color = 'blue';
+  //   };    
+  // }
+
   return (
     // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
     // <div className="hero-body">
@@ -28,7 +38,8 @@ const Login = () => {
       </div>
       <div className="field mt-5">
         <div className="switch-button">
-          <input className="switch-button-checkbox" type="checkbox"></input>
+          <input className="switch-button-checkbox" type="checkbox"  />
+          {/* onClick={(e) => {_handleCheckBox(e)} } */}
           <label className="switch-button-label">
             <span className="switch-button-label-span">MALE</span>
           </label>
