@@ -20,7 +20,11 @@ const Personal = () => {
       <div className="field mt-5 self-title">
         <h1 className="self-name">PERSONAL DETAILS</h1>
         <Link to="/">
-          <button className="delete is-large"></button>
+          <button className="title-btn">
+            <span className="icon">
+              <i className="fas fa-times"></i>
+            </span>
+          </button>
         </Link>
       </div>
       <div className="field mt-5">
@@ -66,7 +70,7 @@ const Personal = () => {
       </div>
 
       <div className="field mt-5">
-        <Link to="/insurance">
+        <Link className="get-link" to="/insurance">
           <button className="button is-link is-large is-fullwidth">SEND</button>
         </Link>
       </div>
