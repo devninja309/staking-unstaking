@@ -385,7 +385,7 @@
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .title-btn {
     padding: 19px, 21px !important;
   }
@@ -566,10 +566,20 @@
     padding: 0px, 30px !important;
   }
   .c-info-table .select{
-    width: 100% !important;
+    width: 98% !important;
   }
   .c-info-table .select select{
     height: 88px !important;
     font-size: 38px !important;
   }
+}
+
+@media (min-width: 1000px){
+  .box {
+    min-height: 100vh !important;
+    padding-bottom: 20px !important;
+    box-shadow: none !important;
+    width: 1000px;
+    margin: 0 auto;
+}
 }
