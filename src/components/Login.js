@@ -92,7 +92,7 @@ const Login = () => {
         <div className="self-tables">
           <div className="name-table">Country</div>
           <div className="c-info-table">
-            <div className="select">
+            <div className="select select-country">
               <select>
                 <option>United States</option>
               </select>

@@ -8,6 +8,7 @@ import Login from "././components/Login.js";
 import Personal from "././components/Personal.js";
 import Insurance from "././components/Insurance.js";
 import Transfer from "././components/Transfer.js";
+// import Test from "././components/test.js"
 
 axios.defaults.withCredentials = true;
 
@@ -20,6 +21,7 @@ const Demo = () => {
           <Route path="/personal" element={<Personal />} />
           <Route path="/insurance" element={<Insurance />} />
           <Route path="/transfer" element={<Transfer />} />
+          {/* <Route path="test" element={<Test/>} /> */}
         </Routes>
       </BrowserRouter>
     </>
