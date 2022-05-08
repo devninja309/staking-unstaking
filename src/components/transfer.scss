@@ -57,28 +57,30 @@
 
   .select-staing select{
     padding-right: 1.5em !important;
-    font-size: 27px !important;
+    font-size: 27px ;
+    width: 100%;
+    text-align: center;
+    color: rgb(29, 50, 82);
+    outline: none;
+    border: none;
+    height: 78px;
   }
   .select-staing.select:not(.is-multiple):not(.is-loading)::after {
-    right: 0.125em !important;
+    right: 0.125em ;
 }
   .select-staing.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
-    height: 0.825em !important;
-    width: 0.925em !important;
+    height: 0.825em ;
+    width: 0.925em ;
+}
+
+.select-staing.select:not(.is-multiple):not(.is-loading)::after{
+  margin-top: -0.6375em;
 }
 
   // .select{
   //   width: 65%;
   // }
-  .select select{
-    width: 100%;
-    text-align: center;
-    color: rgb(128, 128, 128);
-    outline: none;
-    border: none;
-    height: 78px;
-    font-size: 30px;
-  }
+
   .qr-center{
     display: flex;
     justify-content: center;

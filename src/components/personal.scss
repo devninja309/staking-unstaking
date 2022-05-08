@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 30px;
-  color: black;
+  font-size: 27px;
+    color: black;
 }
 .delete:before {
   background-color: rgb(255, 0, 0) !important;
@@ -83,7 +83,7 @@
   outline: none;
 }
 .phone-field{
-  width:45%;
+  width:65%;
 }
 .get-link{
   color: #000000;
@@ -93,6 +93,10 @@
 }
 .first-input, .other-input {
   padding-left: 20px;
+}
+
+a{
+  text-decoration: none !important;
 }
 
 @media (max-width: 500px) {

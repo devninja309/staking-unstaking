@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import "./login.scss";
 
-const Login = () => {
+import CountrySelect from "react-bootstrap-country-select";
 
+const Login = () => {
   const [tranc, setTranc] = React.useState("");
 
   const chooseMale = () => {
@@ -15,6 +16,8 @@ const Login = () => {
   const chooseFemale = () => {
     setTranc("right-animation");
   };
+
+  const [value, setValue] = useState(null);
 
   // const [email, setEmail] = useState("");
   // const [password, setPassword] = useState("");
@@ -40,21 +43,23 @@ const Login = () => {
         </Link>
       </div>
       <div className="field mt-5">
-      <div className="total">
-        <div className="trans">
-          <div className="trans-a" onClick={chooseMale}>
-            <p className={classNames({ active: tranc === "left-animation" })}>
-              MALE
-            </p>
+        <div className="total">
+          <div className="trans">
+            <div className="trans-a" onClick={chooseMale}>
+              <p className={classNames({ active: tranc === "left-animation" })}>
+                MALE
+              </p>
+            </div>
+            <div className="trans-b" onClick={chooseFemale}>
+              <p
+                className={classNames({ active: tranc === "right-animation" })}
+              >
+                FEMALE
+              </p>
+            </div>
+            <div className={`tranc ${tranc}`}></div>
           </div>
-          <div className="trans-b" onClick={chooseFemale}>
-            <p className={classNames({ active: tranc === "right-animation" })}>
-              FEMALE
-            </p>
-          </div>
-          <div className={`tranc ${tranc}`}></div>
         </div>
-      </div>
       </div>
       <div className="field mt-5">
         <div className="self-tables">
@@ -104,9 +109,11 @@ const Login = () => {
           <div className="name-table">Country</div>
           <div className="c-info-table">
             <div className="select select-country">
-              <select>
-                <option>United States</option>
-              </select>
+                <CountrySelect
+                  placeholder="United states"
+                  value={value}
+                  onChange={setValue}
+                />
             </div>
           </div>
         </div>

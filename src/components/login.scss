@@ -1,4 +1,3 @@
-
 .trans {
   width: 100%;
   height: 77px;
@@ -12,7 +11,7 @@
 }
 
 .trans-a {
-  color:rgb(100, 106, 126);
+  color: rgb(100, 106, 126);
   font-size: 27px;
   font-weight: 400;
   width: 50%;
@@ -35,7 +34,7 @@
 .trans p {
   margin: 0;
   padding: 0;
-} 
+}
 
 .active {
   color: rgb(45, 98, 244) !important;
@@ -44,7 +43,7 @@
 .tranc {
   width: 50%;
   height: 77px;
-  border: 2px solid rgb(45,98,244);
+  border: 2px solid rgb(45, 98, 244);
   border-radius: 39px;
   position: absolute;
   display: flex;
@@ -68,9 +67,8 @@
   0% {
     left: 50%;
   }
-100% {
-
-  left: 0;
+  100% {
+    left: 0;
   }
 }
 
@@ -83,11 +81,10 @@
     left: 50%;
     /* right: 0; */
   }
-  }
+}
 
-
-.button.is-link{
-  background-color:#3f5ce1 !important;
+.button.is-link {
+  background-color: #3f5ce1 !important;
 }
 .switch-button {
   background: rgba(255, 255, 255, 0.56);
@@ -255,13 +252,8 @@
 }
 .c-info-table {
   width: 69%;
-  font-size: 22px;
   display: flex;
   align-items: center;
-}
-
-.c-info-table select {
-  width: 100% !important;
 }
 
 .check-nicotine {
@@ -283,8 +275,8 @@
   outline: none;
   width: 100%;
 }
-.select select:focus{
-  box-shadow: 0 0 0 0 rgb(255,255,255) !important;
+.select select:focus {
+  box-shadow: 0 0 0 0 rgb(255, 255, 255) !important;
 }
 .select select:hover {
   border: none !important;
@@ -295,30 +287,54 @@
   display: flex;
   align-items: center;
 }
-.select-country{
-    width: 78%;
-    height: 100%;
-    display: flex;
-    align-items: center;
+.select-country {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
-.select-country select{
+.select-country select {
   font-size: 27px !important;
 }
+
+a {
+  text-decoration: none;
+}
+
+.input-group > .form-control,
+.input-group > .form-select {
+  padding-left: 29px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
 .select:not(.is-multiple):not(.is-loading)::after {
   border-color: #485fc7;
-  right: -0.875em;
+  right: 2.125em;
   z-index: 4;
 }
-.get-link{
+
+.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
+  height: 1.125em;
+  margin-top: -0.8375em;
+  width: 1.125em;
+}
+
+.get-link {
   color: #000000;
 }
-.get-link:hover{
+.get-link:hover {
   color: #000000;
 }
 
 @media (max-width: 500px) {
   .self-name {
-    font-size: 22px !important;
+    font-size: 22px;
   }
   .switch-button {
     height: 68px;
@@ -328,8 +344,8 @@
     font-weight: bold;
   }
   .switch-button:before {
-  font-size: 19px;
-  font-weight: 500;
+    font-size: 19px;
+    font-weight: 500;
   }
   .name-table {
     font-size: 19px !important;
