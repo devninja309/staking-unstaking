@@ -42,7 +42,7 @@
   }
  
   .staking-crypto{
-    width: 35%;
+    width: 38%;
     height: 80px;
     display: flex;
     padding-left: 20px;
@@ -54,6 +54,19 @@
     border-top-left-radius: 41px;
     border-bottom-left-radius: 41px;
   }
+
+  .select-staing select{
+    padding-right: 1.5em !important;
+    font-size: 27px !important;
+  }
+  .select-staing.select:not(.is-multiple):not(.is-loading)::after {
+    right: 0.125em !important;
+}
+  .select-staing.select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after {
+    height: 0.825em !important;
+    width: 0.925em !important;
+}
+
   // .select{
   //   width: 65%;
   // }
@@ -78,7 +91,7 @@
   .footer-note{
     // color: black;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     padding: 0 1em;
   }
   .footer-note span{

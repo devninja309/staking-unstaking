@@ -92,8 +92,8 @@
   font-size: 29px;
 }
 .crypto-names {
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-left: 0px;
+  margin-right: 7px;
   font-size: 29px;
 }
 .crypto-name-luna {
@@ -126,6 +126,19 @@
 }
 
 @media (max-width: 500px) {
+  .trans-a {
+    font-size: 25px;
+  }
+  .trans-b {
+    font-size: 25px;
+
+  }
+  .trans {
+    height: 68px;
+  }
+  .tranc {
+    height: 68px;
+  }
   .crypto-img {
     width: 33px;
     height: 33px;
@@ -230,6 +243,19 @@
 }
 
 @media (max-width: 380px) {
+  .trans-a {
+    font-size: 21px;
+  }
+  .trans-b {
+    font-size: 21px;
+
+  }
+  .trans {
+    height: 65px;
+  }
+  .tranc {
+    height: 65px;
+  }
   .select select {
     font-size: 18px !important;
   }
@@ -380,206 +406,248 @@
 }
 
 @media (max-width: 330px) {
+  .trans-a {
+    font-size: 20px;
+  }
+  .trans-b {
+    font-size: 20px;
+
+  }
+  .trans {
+    height: 60px;
+  }
+  .tranc {
+    height: 60px;
+  }
   .self-name {
     font-size: 14px !important;
   }
 }
 
-@media (min-width: 800px) {
-  .title-btn {
-    padding: 19px, 21px !important;
-  }
-  .fa-times {
-    font-size: 40px;
-  }
-  .self-name {
-    font-size: 50px;
-  }
-  .switch-button {
-    height: 100px;
-  }
-  .switch-button:before {
-    font-size: 45px;
-  }
-  .switch-button-checkbox + .switch-button-label .switch-button-label-span {
-    font-size: 45px;
-  }
-  .self-tables {
-    height: 90px;
-  }
-  .name-table {
-    width: 46%;
-    padding-left: 110px;
-    font-size: 40px;
-  }
-  .info-table {
-    width: 18%;
-  }
-  .self-tables span {
-    font-size: 30px;
-  }
-  .info-input {
-    margin-left: 20px;
-    font-size: 25px;
-  }
-  .h-info-table {
-    width: 27%;
-  }
-  .w-info-table {
-    width: 54%;
-  }
-  .c-info-table {
-    width: 54%;
-  }
-  .h-info-table span {
-    font-size: 30px;
-  }
-  .check-nicotine {
-    width: 40px;
-    height: 40px;
-  }
-  .checkbox p {
-    font-size: 33px;
-  }
-  .button.is-link {
-    font-size: 35px;
-    padding: 49px;
-  }
-  .first-table {
-    width: 46%;
-    padding-left: 110px;
-    font-size: 40px;
-  }
-  .f-table {
-    width: 54%;
-  }
-  .first-input {
-    font-size: 30px;
-  }
-  .other-input {
-    font-size: 30px;
-    width: 53%;
-  }
-  react-tel-input .form-control {
-    font-size: 30px;
-  }
-  .amount-name {
-    font-size: 40px;
-  }
-  .amounts {
-    width: 70%;
-    padding: 15px;
-    border-radius: 59px;
-  }
-  .amounts-number {
-    font-size: 49px;
-  }
-  .amount-btn {
-    border-radius: 43px;
-    padding: 26px;
-  }
-  .select-stake {
-    font-size: 35px !important;
-  }
-  .crypto-img {
-    width: 63px;
-    height: 63px;
-  }
-  .crypto-name {
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 42px;
-    letter-spacing: 7px;
-  }
-  .crypto-check {
-    width: 48px;
-    height: 48px;
-  }
-  .crypto-name-luna {
-    margin-left: 55px;
-    margin-right: 46px;
-    font-size: 39px;
-  }
-  .stakings {
-    height: 110px !important;
-    border-radius: 60px !important;
-  }
-  .staking-crypto {
-    width: 43% !important;
-    height: 110px !important;
-    padding-left: 13% !important;
-    font-size: 25px !important;
-    border-top-left-radius: 54px !important;
-    border-bottom-left-radius: 54px !important;
-  }
-  .crypto-names {
-    margin-left: 13px;
-    margin-right: 13px;
-    font-size: 45px;
-    letter-spacing: 8px;
-  }
-  .select {
-    width: 57%;
-  }
-  .select select {
-    height: 90px !important;
-    font-size: 43px !important;
-  }
-  .select:not(.is-multiple):not(.is-loading)::after {
-    right: 4.125em;
-  }
-  .select:not(.is-multiple):not(.is-loading)::after,
-  .navbar-link:not(.is-arrowless)::after {
-    height: 1.025em;
-    margin-top: -0.6375em;
-    width: 1.125em;
-  }
-  .qr-img {
-    width: 500px !important;
-    height: 500px !important;
-  }
-  .deposit-address {
-    font-size: 40px !important;
-  }
-  .deposit-password {
-    font-size: 20px;
-  }
-  .deposit-icon {
-    width: 45px;
-    height: 45px;
-  }
-  .fa-plus {
-    font-size: 33px;
-  }
-  .fa-minus {
-    font-size: 33px;
-  }
-  .foot-more a {
-    font-size: 27px;
-  }
-  .foot-more {
-    margin-bottom: 20px;
-  }
-  .footer-note {
-    font-weight: 500 !important;
-    font-size: 33px !important;
-    padding: 0px, 30px !important;
-  }
-  .c-info-table .select{
-    width: 98% !important;
-  }
-  .c-info-table .select select{
-    height: 88px !important;
-    font-size: 38px !important;
-  }
-}
+// @media (min-width: 800px) {
+//   .title-btn {
+//     padding: 19px, 21px !important;
+//   }
+//   .fa-times {
+//     font-size: 40px;
+//   }
+//   .self-name {
+//     font-size: 50px;
+//   }
+//   .switch-button {
+//     height: 100px;
+//   }
+//   .switch-button:before {
+//     font-size: 45px;
+//   }
+//   .switch-button-checkbox + .switch-button-label .switch-button-label-span {
+//     font-size: 45px;
+//   }
+//   .self-tables {
+//     height: 90px;
+//   }
+//   .name-table {
+//     width: 46%;
+//     padding-left: 110px;
+//     font-size: 40px;
+//   }
+//   .info-table {
+//     width: 18%;
+//   }
+//   .self-tables span {
+//     font-size: 30px;
+//   }
+//   .info-input {
+//     margin-left: 20px;
+//     font-size: 25px;
+//   }
+//   .h-info-table {
+//     width: 27%;
+//   }
+//   .w-info-table {
+//     width: 54%;
+//   }
+//   .c-info-table {
+//     width: 54%;
+//   }
+//   .h-info-table span {
+//     font-size: 30px;
+//   }
+//   .check-nicotine {
+//     width: 40px;
+//     height: 40px;
+//   }
+//   .checkbox p {
+//     font-size: 33px;
+//   }
+//   .button.is-link {
+//     font-size: 35px;
+//     padding: 49px;
+//   }
+//   .first-table {
+//     width: 46%;
+//     padding-left: 110px;
+//     font-size: 40px;
+//   }
+//   .f-table {
+//     width: 54%;
+//   }
+//   .first-input {
+//     font-size: 30px;
+//   }
+//   .other-input {
+//     font-size: 30px;
+//     width: 53%;
+//   }
+//   react-tel-input .form-control {
+//     font-size: 30px;
+//   }
+//   .amount-name {
+//     font-size: 40px;
+//   }
+//   .amounts {
+//     width: 70%;
+//     padding: 15px;
+//     border-radius: 59px;
+//   }
+//   .amounts-number {
+//     font-size: 49px;
+//   }
+//   .amount-btn {
+//     border-radius: 43px;
+//     padding: 26px;
+//   }
+//   .select-stake {
+//     font-size: 35px !important;
+//   }
+//   .crypto-img {
+//     width: 63px;
+//     height: 63px;
+//   }
+//   .crypto-name {
+//     margin-left: 50px;
+//     margin-right: 50px;
+//     font-size: 42px;
+//     letter-spacing: 7px;
+//   }
+//   .crypto-check {
+//     width: 48px;
+//     height: 48px;
+//   }
+//   .crypto-name-luna {
+//     margin-left: 55px;
+//     margin-right: 46px;
+//     font-size: 39px;
+//   }
+//   .stakings {
+//     height: 110px !important;
+//     border-radius: 60px !important;
+//   }
+//   .staking-crypto {
+//     width: 43% !important;
+//     height: 110px !important;
+//     padding-left: 13% !important;
+//     font-size: 25px !important;
+//     border-top-left-radius: 54px !important;
+//     border-bottom-left-radius: 54px !important;
+//   }
+//   .crypto-names {
+//     margin-left: 13px;
+//     margin-right: 13px;
+//     font-size: 45px;
+//     letter-spacing: 8px;
+//   }
+//   .select {
+//     width: 57%;
+//   }
+//   .select select {
+//     height: 90px !important;
+//     font-size: 43px !important;
+//   }
+//   .select:not(.is-multiple):not(.is-loading)::after {
+//     right: 4.125em;
+//   }
+//   .select:not(.is-multiple):not(.is-loading)::after,
+//   .navbar-link:not(.is-arrowless)::after {
+//     height: 1.025em;
+//     margin-top: -0.6375em;
+//     width: 1.125em;
+//   }
+//   .qr-img {
+//     width: 500px !important;
+//     height: 500px !important;
+//   }
+//   .deposit-address {
+//     font-size: 40px !important;
+//   }
+//   .deposit-password {
+//     font-size: 20px;
+//   }
+//   .deposit-icon {
+//     width: 45px;
+//     height: 45px;
+//   }
+//   .fa-plus {
+//     font-size: 33px;
+//   }
+//   .fa-minus {
+//     font-size: 33px;
+//   }
+//   .foot-more a {
+//     font-size: 27px;
+//   }
+//   .foot-more {
+//     margin-bottom: 20px;
+//   }
+//   .footer-note {
+//     font-weight: 500 !important;
+//     font-size: 33px !important;
+//     padding: 0px, 30px !important;
+//   }
+//   .c-info-table .select {
+//     width: 98% !important;
+//   }
+//   .c-info-table .select select {
+//     height: 88px !important;
+//     font-size: 38px !important;
+//   }
+//   .trans {
+//     height: 90px;
+//     border: 2px solid rgb(195, 199, 203);
+//     border-radius: 50px;
+//   }
+//   .trans-a {
+//     font-size: 36px;
+//     font-weight: 500;
+//     color: rgb(100, 106, 126);
+//   }
+//   .trans-b {
+//     font-size: 36px;
+//     font-weight: 500;
+//     color: rgb(100, 106, 126);
+//   }
+//   .tranc {
+//     height: 90px;
+//     border: 2px solid rgb(45, 98, 244);
+//     border-radius: 50px;
+//     position: absolute;
+//     display: flex;
+//     justify-content: flex-start;
+//     left: 0;
+//   }
+//   .active {
+//     color: rgb(45, 98, 244) !important;
+//   }
+// }
 
-@media (min-width: 1000px){
+@media (min-width: 500px) {
   .box {
     min-height: 100vh !important;
     padding-bottom: 20px !important;
     box-shadow: none !important;
-    width: 1000px;
-    margin: 0 auto;
-}
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(204, 208, 212);
+    border-radius: 10px;
+  }
 }
