@@ -10,7 +10,7 @@ const Insurance = () => {
     //       <div className="columns is-centered">
     //         <div className="column is-mobile">
               <div className="box">
-                <div className="field mt-5 mb-5 self-title">
+                <div className="field self-title">
                   <Link to="/insurance">
                     <button className="title-btn">
                       <span className="icon">
@@ -27,7 +27,7 @@ const Insurance = () => {
                     </button>
                   </Link>
                 </div>
-                <div className="field mt-5 stakings-line">
+                <div className="field mt-2 stakings-line">
                   <div className="stakings">
                     <div className="staking-crypto">
                       <img
@@ -44,14 +44,14 @@ const Insurance = () => {
                     </div>
                   </div>
                 </div>
-                <div className="field mt-5 qr-center">
+                <div className="field mt-2 qr-center">
                   <img
                     src="./cryptoicons/QR.jpg"
                     className="qr-img"
                     alt=""
                   ></img>
                 </div>
-                <div className="field mt-5 pt-5">
+                <div className="field ">
                   <div className="count-amount">
                     <div className="deposit">
                       <h3 className="deposit-address">
@@ -69,7 +69,7 @@ const Insurance = () => {
                     </div>
                   </div>
                 </div>
-                <div className="field mt-5 footer-note">
+                <div className="field mt-1 footer-note">
                   <p>NOTE</p>
                   <p>ETH Chain Only</p>
                   <p>

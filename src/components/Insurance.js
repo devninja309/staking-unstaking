@@ -49,7 +49,7 @@ const Insurance = () => {
                 <div className="field mt-5 amount">
                   <h3 className="amount-name">Coverage amount</h3>
                 </div>
-                <div className="field mt-5 count-amountn">
+                <div className="field mt-1 count-amountn">
                   <button className="amount-btn" >
                   {/* onClick={decrease} */}
                     <span className="icon">
@@ -77,7 +77,7 @@ const Insurance = () => {
                   <div className="field mt-5 amount">
                     <h3 className="amount-name select-stake">SELECT CRYPTO TO STAKE</h3>
                   </div>
-                  <div className="field mt-5 select-cryto">
+                  <div className="field mt-3 select-cryto">
                     <div className="select-crypto-lines">
                       <div className="select-crypto-line mb-5">
                         <img

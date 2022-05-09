@@ -61,7 +61,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="field mt-5">
+      <div className="field mt-4">
         <div className="self-tables">
           <div className="name-table">Birthday</div>
           <div className="info-table">
@@ -82,7 +82,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="field mt-5">
+      <div className="field mt-4">
         <div className="self-tables">
           <div className="name-table">Height</div>
           <div className="h-info-table">
@@ -95,7 +95,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="field mt-5">
+      <div className="field mt-4">
         <div className="self-tables">
           <div className="name-table">Weight</div>
           <div className="w-info-table">
@@ -104,7 +104,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="field mt-5">
+      <div className="field mt-4">
         <div className="self-tables">
           <div className="name-table">Country</div>
           <div className="c-info-table">
@@ -124,7 +124,7 @@ const Login = () => {
           <p>I currently use nicotine products.</p>
         </label>
       </div>
-      <div className="field mt-5">
+      <div className="field mt-4">
         <Link className="get-link" to="./personal">
           <button className="button is-link is-large is-fullwidth">
             LET'S GET ESTIMATING
