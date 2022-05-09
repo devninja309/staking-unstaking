@@ -19,6 +19,85 @@ const Login = () => {
 
   const [value, setValue] = useState(null);
 
+  const monthOptions = () => {
+    var arr = [];
+
+    for (let i = 1; i <= 12; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+  const dayOptions = () => {
+    var arr = [];
+
+    for (let i = 1; i <= 31; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+  const yearOptions = () => {
+    var arr = [];
+
+    for (let i =1950 ; i <= 2004; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+  const ftOptions = () => {
+    var arr = [];
+
+    for (let i =4 ; i <= 7; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+  const inOptions = () => {
+    var arr = [];
+
+    for (let i =4 ; i <= 7; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+  const ibsOptions = () => {
+    var arr = [];
+
+    for (let i =100 ; i <= 1000; i++) {
+      arr.push(
+        <option key={i} value="{i}">
+          {i}
+        </option>
+      );
+    }
+
+    return arr;
+  };
+
   // const [email, setEmail] = useState("");
   // const [password, setPassword] = useState("");
   // const country = useState([
@@ -66,19 +145,17 @@ const Login = () => {
           <div className="name-table">Birthday</div>
           <div className="info-table">
             <span>MM</span>
-            <input type="text" className="info-input" placeholder="08"></input>
+            <select className="custom-select info-input">
+              {monthOptions()}
+            </select>
           </div>
           <div className="info-table">
             <span>DD</span>
-            <input type="text" className="info-input" placeholder="29"></input>
+            <select className="custom-select info-input">{dayOptions()}</select>
           </div>
           <div className="info-table">
             <span>YYYY</span>
-            <input
-              type="text"
-              className="info-input"
-              placeholder="1974"
-            ></input>
+            <select className="custom-select info-input">{yearOptions()}</select>
           </div>
         </div>
       </div>
@@ -87,11 +164,11 @@ const Login = () => {
           <div className="name-table">Height</div>
           <div className="h-info-table">
             <span>ft</span>
-            <input type="text" className="info-input" placeholder="5"></input>
+            <select className="custom-select info-input">{ftOptions()}</select>
           </div>
           <div className="h-info-table">
             <span>in</span>
-            <input type="text" className="info-input" placeholder="11"></input>
+            <select className="custom-select info-input">{inOptions()}</select>
           </div>
         </div>
       </div>
@@ -100,7 +177,7 @@ const Login = () => {
           <div className="name-table">Weight</div>
           <div className="w-info-table">
             <span>Ibs</span>
-            <input type="text" className="info-input" placeholder="175"></input>
+            <select className="custom-select info-input" >{ibsOptions()}</select>
           </div>
         </div>
       </div>
@@ -109,11 +186,11 @@ const Login = () => {
           <div className="name-table">Country</div>
           <div className="c-info-table">
             <div className="select select-country">
-                <CountrySelect
-                  placeholder="United states"
-                  value={value}
-                  onChange={setValue}
-                />
+              <CountrySelect
+                placeholder="United states"
+                value={value}
+                onChange={setValue}
+              />
             </div>
           </div>
         </div>

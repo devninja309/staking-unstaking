@@ -230,6 +230,16 @@
   width: 60%;
   border: none;
   outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.custom-select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+  border-radius: 0.25rem;
 }
 
 .h-info-table {
@@ -324,6 +334,7 @@ a {
   margin-top: -0.8375em;
   width: 1.125em;
 }
+
 
 .get-link {
   color: #000000;
