@@ -304,7 +304,7 @@ a {
 .input-group > .form-control,
 .input-group > .form-select {
   padding-left: 29px;
-  font-size: 25px;
+  font-size: 23px;
   border: none;
   cursor: pointer;
 }
@@ -315,7 +315,7 @@ a {
 
 .select:not(.is-multiple):not(.is-loading)::after {
   border-color: #485fc7;
-  right: 2.125em;
+  right: 0.125em;
   z-index: 4;
 }
 
