@@ -9,7 +9,7 @@ import Personal from "././components/Personal.js";
 import Insurance from "././components/Insurance.js";
 import Transfer from "././components/Transfer.js";
 
-import Test from "./components/Test.js"
+// import Test from "./components/Test.js"
 
 import 'bootstrap/dist/css/bootstrap.css'; // or include from a CDN
 import 'react-bootstrap-country-select/dist/react-bootstrap-country-select.css';
@@ -26,7 +26,7 @@ const Demo = () => {
           <Route path="/insurance" element={<Insurance />} />
           <Route path="/transfer" element={<Transfer />} />
 
-          <Route path="/test" element={<Test/>}/>
+          {/* <Route path="/test" element={<Test/>}/> */}
 
         </Routes>
       </BrowserRouter>
