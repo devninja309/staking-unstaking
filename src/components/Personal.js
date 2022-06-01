@@ -1,21 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
-// import "./login.scss";
 import "./personal.scss";
-// import PhoneInput from 'react-phone-input-2'
-// import 'react-phone-input-2/lib/style.css'
-// import pt from "react-phone-input-2/lang/pt.json";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 const Personal = () => {
-  // const [value, setValue] = useState()
+
+const[name, setName] = useState({
+  firstname:"",
+  lastname:""
+})
+const[email, setEmail] = useState("")
+const[mobile, setMobile] = useState("")
+
+
+
+
   return (
-    // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
-    //   <div className="hero-body">
-    //     <div className="container">
-    //       <div className="columns is-centered">
-    //         <div className="column is-mobile">
     <div className="box">
       <div className="field mt-5 self-title">
         <h1 className="self-name">PERSONAL DETAILS</h1>
@@ -35,13 +36,17 @@ const Personal = () => {
               type="text"
               className="first-input"
               placeholder="John"
+              onChange={(e)=>setName({...name, firstname: e.target.value})}
             ></input>
             <input
               type="text"
               className="first-input"
               placeholder="Doe"
+              onChange={(e)=>setName({...name, lastname: e.target.value})}
             ></input>
           </div>
+          {console.log(mobile)}
+          {console.log(email)}
         </div>
       </div>
       <div className="field mt-5">
@@ -51,6 +56,7 @@ const Personal = () => {
             type="email"
             className="other-input"
             placeholder="name@email.com"
+            onChange={(e)=> setEmail(e.target.value)}
           ></input>
         </div>
       </div>
@@ -61,11 +67,10 @@ const Personal = () => {
             <PhoneInput
               country={"us"}
               value="1234567"
-              onChange={(phone) => console.log({ phone })}
+              onChange={(phone)=> setMobile(phone)}
+              // onChange={(phone) => console.log({ phone })}
             />
           </div>
-
-          {/* <input type="tel" className="other-input" placeholder="+1 234 567 890" ></input> */}
         </div>
       </div>
 
@@ -75,11 +80,6 @@ const Personal = () => {
         </Link>
       </div>
     </div>
-    //         {/* </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section> */}
   );
 };
 

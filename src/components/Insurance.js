@@ -1,33 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./insurance.scss";
 
 const Insurance = () => {
 
-  // const [count, setCount] = useState(100000);
+  const[crypto, setCrypto]= useState("")
+  const[count, setCount] = useState(1000000)
+  const posi_Number = new RegExp(
+    '^[0-9]+[0-9]*$'
+ );
 
-  // const inCount = (e) => {
-  //   let value = Number(e);
-  //   setCount(value);
-  // }
-
-  // const increase = () => {
-  //   setCount(count+1);
-  //   // alert(count)
-  // }
-
-  // const decrease = () => {
-  //   // var bbb = --count;
-  //   setCount(count-1);
-  // }
+ const changeValue = (value) => {
+    if(posi_Number.test(value)) {
+      setCount(parseInt(value))
+    }
+ }
 
   return (
-    // <section className="hero has-background-grey-light is-fullheight is-fullwidth">
-    //   {/* {console.log(count)} */}
-    //   <div className="hero-body">
-    //     <div className="container">
-    //       <div className="columns is-centered">
-    //         <div className="column is-mobile">
               <div className="box">
                 <div className="field mt-5 mb-5 self-title">
                   <Link to="/personal">
@@ -50,23 +39,25 @@ const Insurance = () => {
                   <h3 className="amount-name">Coverage amount</h3>
                 </div>
                 <div className="field mt-1 count-amountn">
-                  <button className="amount-btn" >
-                  {/* onClick={decrease} */}
+                  <button className="amount-btn" onClick={()=> setCount(count-1)} >
+                  
                     <span className="icon">
                       <i className="fa-solid fa-minus"></i>
                     </span>
                   </button>
                   <div className="amounts">
                     <input
-                      type="number"
+                      type="text"
                       className="amounts-number"
                       placeholder="$1,000,000"
-                      // value={count}
-                      // onChange={(e) => {inCount(e.target.value)}}
+                      value={count}
+                      onChange={(e) => {changeValue(e.target.value);}}
                     ></input>
+                      {console.log(crypto)}
+                      {console.log(count)}
                   </div>
-                  <button className="amount-btn">
-                  {/* onClick={increase} */}
+                  <button className="amount-btn" onClick={()=> setCount(count+1)}>
+                  
                     <span className="icon">
                       <i className="fa-solid fa-plus"></i>
                     </span>
@@ -90,6 +81,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("bitcoin")}
                         ></input>
                       </div>
                       <div className="select-crypto-line mb-5">
@@ -103,6 +95,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("ethereum")}
                         ></input>
                       </div>
                     </div>
@@ -118,6 +111,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("solana")}
                         ></input>
                       </div>
                       <div className="select-crypto-line mb-5">
@@ -131,6 +125,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("binance")}
                         ></input>
                       </div>
                     </div>
@@ -146,6 +141,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("bitcoin_cash")}
                         ></input>
                       </div>
                       <div className="select-crypto-line mb-5">
@@ -159,6 +155,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("caradano")}
                         ></input>
                       </div>
                     </div>
@@ -174,6 +171,7 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("xrp")}
                         ></input>
                       </div>
                       <div className="select-crypto-line mb-5">
@@ -187,8 +185,8 @@ const Insurance = () => {
                           type="radio"
                           name="crypto"
                           className="crypto-check"
+                          onClick={()=> setCrypto("luna")}
                         ></input>
-                        {/* <>?</> */}
                       </div>
                     </div>
                   </div>
@@ -207,11 +205,6 @@ const Insurance = () => {
                   </Link>
                 </li>
               </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
   );
 };
 
